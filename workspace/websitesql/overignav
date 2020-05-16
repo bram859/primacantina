@@ -1,0 +1,120 @@
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+                  <div class="menuknop">
+      <div class="container">
+
+        <a class="navbar-brand" href="primacantina.html">
+          <img src="foto's/Prima1.png" width="188" height="95">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div class="knopjes">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="voorkeur.html">Voorkeurlijst</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="etenswaren.html">Etenswaren</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="reserveren.html">Reserveren</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="login.html">Account</a>
+            </li>
+            
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Zoeken" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Dit hoeft niet per se</button>
+    </form>
+          </div>
+          
+        
+   
+    </div>
+        </div>
+      </div>
+    </nav>
+    
+    
+    
+    
+    
+    
+    #mainNav {
+  position: absolute;
+  border-bottom: 1px solid #e9ecef;
+  background-color: rgba(200,80,0,0.7);
+   font-family: 'Pacifico', cursive;}
+  #mainNav .navbar-brand {
+    font-weight: 800;
+    color: #343a40; 
+    
+  }
+  #mainNav .navbar-toggler {
+    font-size: 15px;
+    font-weight: 800;
+    padding: 23px;
+    text-transform: uppercase;
+    color: #343a40; }
+  #mainNav .navbar-nav > li.nav-item > a {
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    word-spacing:5px;
+  }
+    
+  @media only screen and (min-width: 992px) {
+    #mainNav {
+      border-bottom: 1px solid transparent;
+      background: rgba(255,255,255,0.6); }
+      #mainNav .navbar-brand {
+        padding: 10px 20px;
+        color: #fff; }
+        #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+          color: rgba(255, 255, 255, 0.8); }
+      #mainNav .navbar-nav > li.nav-item > a {
+        padding: 10px 20px;
+        color: #000000; }
+        #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
+          color: rgba(255, 255, 100, 0.8); } }
+  @media only screen and (min-width: 992px) {
+    #mainNav {
+      -webkit-transition: background-color 0.2s;
+      -moz-transition: background-color 0.2s;
+      transition: background-color 0.2s;
+     
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility:hidden; }
+      #mainNav.is-fixed {
+        
+        position: fixed;
+        top: -67px;
+        -webkit-transition: -webkit-transform 0.2s;
+        -moz-transition: -moz-transform 0.2s;
+        transition: transform 0.2s;
+        border-bottom: 1px solid white;
+        background-color: rgba(255, 255, 255, 0.9); }
+        #mainNav.is-fixed .navbar-brand {
+          color: #212529; }
+          #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
+            color: #0085A1; }
+        #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+          color: #212529; }
+          #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus, #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover {
+            color: #0085A1; }
+      #mainNav.is-visible {
+        
+        -webkit-transform: translate3d(0, 100%, 0);
+        -moz-transform: translate3d(0, 100%, 0);
+        -ms-transform: translate3d(0, 100%, 0);
+        -o-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0); } }

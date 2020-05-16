@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Prima Cantina</title>
+     <meta name="theme-color" content="#50a050" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link href="https://fonts.googleapis.com/css?family=Pacifico|Rokkitt" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="primacantina.css">
+    <link rel="icon" href="foto/Prima5.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-logo" href="primacantina.php">
+        <img src="foto/Prima1.png" width="213" height="120" class="d-inline-block align-top" >
+    
+    </a>
+          <div class="navcollapse">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  </div>
+  
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      
+      <li class="nav-item active">
+        <a id="navwoord" class="btn btn-primary active" href="voorkeur.html">Voorkeurlijst <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a id="navwoord" class="btn btn-primary" href="etenswaren.php">Etenswaren</a>
+      </li>
+      <li class="nav-item">
+        <a id="navwoord" class="btn btn-primary" href="dezeweek.php">Deze Week</a>
+      </li>
+      <li class="nav-item">
+        <a id="navwoord" class="btn btn-primary" href="profiel.php">Profiel</a>
+      </li>
+    </ul>
+    
+   
+    
+    <div class="loguit">
+    <form class="form-inline my-2 my-lg-0">
+      <a class="btn btn-outline-success2"  href="loguit.php">Uitloggen</a>
+    </form>
+    
+    
+    </div>
+  </div>
+</nav>
+<div class="enquete">
+  <h1 id="enquetetitel">Wat wil jij volgende week voor eten zien in de kantien?</h1>
+  <h1 id="enquetetitel2">Voorkeurslijst</h1>
+  <div class="container">
+ 
+  <div class="dropdown">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        
+        <h4 id="droptitel" class="panel-title">
+          
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><p id="voorkeurtitel">Broodjes   &#9660;</p></a>
+        
+        </h4>
+        
+      </div>
+      <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">
+  
+   <form NAME="form1" METHOD="POST" ACTION="raten.php">          
+          <p id="stemuitleg">Kies hier welke broodjes er volgende week beschikbaar zijn door ons te laten weten hoe graag je ze wil op een schaal van 1-5!</p>
+          <p id="stemuitleg2">Stem op de broodjes die jij wil zien op een schaal van 1-5!</p><hr>
+<div class="stemrij">
+   <div class="row">
+   
+   
+  <p id="stembrood">Broodje Mexicano</p>
+    <div class="stem">
+    
+    <fieldset id="group1">
+      <label class="stemknop">
+        <input type="number"  min=1 max=5 name="group1">
+            </label>
+            </fieldset>
+       </div>
+</div>
+<hr>
+ <div class="row">
+   
+   
+  <p id="stembrood">Broodje Worst</p>
+    <div class="stem">
+    
+    <fieldset id="group2">
+      <label class="stemknop">
+        <input type="number"  min=1 max=5 name="group2">
+            </label>
+            </fieldset>
+       </div>
+</div>
+
+<hr>
+   <div class="row">
+  <p id="stembrood">Saucijzen Broodje</p>
+    <div class="stem"> 
+    <fieldset id="group3">
+      <label class="stemknop">
+        <input type="number" min=1 max=5 name="group3">
+               </label>
+                </fieldset>
+    
+</div>
+
+</div>
+<hr>
+ <div class="row">
+  <p id="stembrood">Broodje Brie</p>
+  
+  <div class="stem">
+ 
+    <fieldset id="group4">
+      <label class="stemknop">
+        <input type="number" min=1 max=5 name="group4">
+               </label>
+                </fieldset>
+    
+
+</div>
+</div>
+<hr>
+ <div class="row">
+  <p id="stembrood">Broodje Gezond</p>
+    <div class="stem"> 
+    <fieldset id="group5">
+      <label class="stemknop">
+        <input type="number" min=1 max=5 name="group5">
+               </label>
+                </fieldset>
+    
+</div>
+
+</div>
+</div>
+
+</div>
+        </div>
+      </div>
+    <hr>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 id="droptitel" class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><p id="voorkeurtitel">Soepen     &#9660;</p></a>
+        </h4>
+      </div>
+      <div id="collapse2" class="panel-collapse collapse">
+        <div class="panel-body">
+           <p id="stemuitleg">Kies hier welke soepen er volgende week beschikbaar zijn door ons te laten weten hoe graag je ze wil op een schaal van 1-5!</p>
+            <p id="stemuitleg2">Stem op de soepen die jij wil zien op een schaal van 1-5!</p><hr>
+  <div class="stemrij">
+  <div class="row">
+  <p id="stembrood">Groentesoep</p>
+  
+  <div class="stem">
+  
+ 
+    <fieldset id="group6">
+      <label class="stemknop">
+       <input type="number" min=1 max=5 name="group6">
+            </label>
+                   </fieldset>
+   
+</div>
+
+</div>
+<hr>
+  <div class="row">
+  <p id="stembrood">Tomatensoep</p>
+  
+  <div class="stem">
+ 
+    <fieldset id="group7">
+      <label class="stemknop">
+        <input type="number" min=1 max=5 name="group7">
+        
+        </label>
+      
+    </fieldset>
+    
+</div>
+</div>
+<hr>
+<div class="row">
+  <p id="stembrood">Mosterdsoep</p>
+  
+  <div class="stem">
+  
+ 
+    <fieldset id="group8">
+      <label class="stemknop">
+       <input type="number" min=1 max=5 name="group8">
+            </label>
+                   </fieldset>
+   
+</div>
+
+</div>
+<hr>
+<div class="row">
+  <p id="stembrood">Kippensoep</p>
+  
+  <div class="stem">
+  
+ 
+    <fieldset id="group9">
+      <label class="stemknop">
+       <input type="number" min=1 max=5 name="group9">
+            </label>
+                   </fieldset>
+   
+</div>
+
+</div>
+<hr>
+<div class="row">
+  <p id="stembrood">Champignonsoep</p>
+  
+  <div class="stem">
+  
+ 
+    <fieldset id="group10">
+      <label class="stemknop">
+       <input type="number" min=1 max=5 name="group10">
+            </label>
+                   </fieldset>
+   
+</div>
+
+</div>
+<hr>
+</div>
+      </div>
+    </div>
+    </div>
+    
+      </div>
+  </div> 
+
+
+  <hr>
+
+<div class="knopdibs">
+  <input type="submit" id="myBtn" value="Stemmen!">
+      </div>
+      </form>
+</div>
+
+
+  
+  
+
+  </body>
+  <section class="footer">
+  <footer>
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-lg-8 col-md-10 mx-auto">
+            
+            <p class="copyright">
+              <a class="csg" href="http://www.csg.nl/">
+              <div class="copyright">
+              <img src="http://www.csg.nl/build/img/logo.svg" width="221" height="146">
+              </a>
+              <br>
+              &copy; CSG augustinus</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+   </section>
+</html>

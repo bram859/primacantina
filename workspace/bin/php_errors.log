@@ -1,0 +1,28 @@
+[06-Jan-2018 16:44:10 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'postcode' in /home/ubuntu/workspace/bin/querier/querier.php on line 240
+[06-Jan-2018 16:44:10 UTC] PHP Stack trace:
+[06-Jan-2018 16:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bin/querier/querier.php:0
+[06-Jan-2018 16:44:10 UTC] PHP   2. loadDatabaseDefinition() /home/ubuntu/workspace/bin/querier/querier.php:45
+[06-Jan-2018 16:44:10 UTC] PHP   3. queryAndFetch() /home/ubuntu/workspace/bin/querier/querier.php:109
+[06-Jan-2018 16:44:10 UTC] PHP   4. executeQuery() /home/ubuntu/workspace/bin/querier/querier.php:142
+[06-Jan-2018 16:44:10 UTC] PHP   5. connection() /home/ubuntu/workspace/bin/querier/querier.php:203
+[06-Jan-2018 16:44:10 UTC] PHP   6. mysqli->mysqli() /home/ubuntu/workspace/bin/querier/querier.php:240
+[06-Jan-2018 16:44:10 UTC] PHP Warning:  mysqli_set_charset(): Couldn't fetch mysqli in /home/ubuntu/workspace/bin/querier/querier.php on line 241
+[06-Jan-2018 16:44:10 UTC] PHP Stack trace:
+[06-Jan-2018 16:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bin/querier/querier.php:0
+[06-Jan-2018 16:44:10 UTC] PHP   2. loadDatabaseDefinition() /home/ubuntu/workspace/bin/querier/querier.php:45
+[06-Jan-2018 16:44:10 UTC] PHP   3. queryAndFetch() /home/ubuntu/workspace/bin/querier/querier.php:109
+[06-Jan-2018 16:44:10 UTC] PHP   4. executeQuery() /home/ubuntu/workspace/bin/querier/querier.php:142
+[06-Jan-2018 16:44:10 UTC] PHP   5. connection() /home/ubuntu/workspace/bin/querier/querier.php:203
+[06-Jan-2018 16:44:10 UTC] PHP   6. mysqli_set_charset() /home/ubuntu/workspace/bin/querier/querier.php:241
+[06-Jan-2018 16:44:10 UTC] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/ubuntu/workspace/bin/querier/querier.php on line 204
+[06-Jan-2018 16:44:10 UTC] PHP Stack trace:
+[06-Jan-2018 16:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bin/querier/querier.php:0
+[06-Jan-2018 16:44:10 UTC] PHP   2. loadDatabaseDefinition() /home/ubuntu/workspace/bin/querier/querier.php:45
+[06-Jan-2018 16:44:10 UTC] PHP   3. queryAndFetch() /home/ubuntu/workspace/bin/querier/querier.php:109
+[06-Jan-2018 16:44:10 UTC] PHP   4. executeQuery() /home/ubuntu/workspace/bin/querier/querier.php:142
+[06-Jan-2018 16:44:10 UTC] PHP   5. mysqli->query() /home/ubuntu/workspace/bin/querier/querier.php:204
+[06-Jan-2018 16:44:10 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/bin/querier/querier.php on line 151
+[06-Jan-2018 16:44:10 UTC] PHP Stack trace:
+[06-Jan-2018 16:44:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/bin/querier/querier.php:0
+[06-Jan-2018 16:44:10 UTC] PHP   2. loadDatabaseDefinition() /home/ubuntu/workspace/bin/querier/querier.php:45
+[06-Jan-2018 16:44:10 UTC] PHP   3. queryAndFetch() /home/ubuntu/workspace/bin/querier/querier.php:109

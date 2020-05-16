@@ -1,0 +1,223 @@
+body {
+  font-family: 'Pacifico', cursive;
+  font-family: 'Rokkitt', serif;
+background-image: url("foto/achtergrond.jpg");
+  background-size: cover;
+
+ 
+ 
+}
+header{
+
+
+	
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+h4{
+
+}
+h5{
+
+   
+}
+
+
+.hero {
+
+}
+
+
+
+
+
+
+
+
+.pics{
+
+}
+
+
+
+
+.gallery {
+  border:1px solid #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top:20px;
+  margin:14px;
+  text-decoration: none;
+ 
+  
+}
+.gallery-item {
+ 
+}
+
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.navbar-logo {
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+  color: #000000;
+ 
+  
+
+}
+.navbar-logo:hover {
+  color: red;
+  text-decoration: none;
+}
+.nav{
+float: center;
+
+}
+.navbar{
+ background-color: rgba(255,0,0,0.6);
+	border-bottom: 2px solid #000000;
+ 
+}
+.buttons{
+align-items:center;
+ 
+  
+ 
+}
+.login{
+  border: 2px solid gray;
+  background-color: #ffffff;
+   width: 300px;
+   display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin: auto;
+  
+  padding:3%;
+
+  
+ 
+  
+}
+
+
+.logologin{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:5%;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+ 
+  
+.dropdown{
+  margin:5px;
+}
+.dropdown-item{
+padding:5px;
+margin-bottom: 5px;
+ 
+}
+
+p {
+} 
+
+
+
+
+
+.links{
+  
+
+}
+
+
+
+
+.btn.btn-primary {
+background-color: purple;
+ border-color: transparent;
+ color: #ffffff;
+ font-weight: bold;
+ margin: 15px;
+ display: flex;
+ flex-wrap: wrap;
+ 
+}
+.btn.btn-primary:hover {
+background-color: orange;
+border-color: transparent;
+
+}
+.achtergrond{
+  
+
+}
+
+.background{
+  
+  
+}
+
+
+
+footer {
+    
+       background-color: rgba(0,0,0,0.6);
+    margin-top: 35px;
+    background-size: cover;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+footer .copyright {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 0;
+    text-align: center;
+    
+
+}
+.csg{
+    padding-right: 10px;
+}
+ 
+  
+
+.license{
+    padding-left: 70px;
+    color: #ffffff;
+}
+.fout{
+    color: red;
+    font-size: 13px;
+}
+#loginfooter{
+    padding-bottom:10%;
+}
